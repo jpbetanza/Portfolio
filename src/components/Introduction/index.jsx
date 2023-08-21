@@ -4,7 +4,6 @@ import ToolsUsed from "../ToolsUsed"
 import {useEffect, useState } from "react"
 
 const Introduction = () => {
-
     const [init,setInit] = useState(false)
     useEffect(()=>{
         setTimeout(() => {
