@@ -9,7 +9,9 @@ const Botao=({position,onPress,page})=>{
         }
         else{
             return(
-                <ArrowL onClick={onPress} className='text-white opacity-20 w-16 h-16 hover:cursor-pointer hover:opacity-40 duration-200'/>
+                <div className='w-16'>
+                    <ArrowL onClick={onPress} className='text-white opacity-20 hover:cursor-pointer hover:opacity-40 duration-200 w-full h-full'/>
+                </div>
             )
         }
     }
@@ -19,7 +21,9 @@ const Botao=({position,onPress,page})=>{
         }
         else{
             return(
-                <ArrowR onClick={onPress} className='text-white opacity-20 w-16 h-16 hover:cursor-pointer hover:opacity-40 duration-200'/>
+                <div className='w-16'>
+                    <ArrowR onClick={onPress} className='text-white opacity-20 hover:cursor-pointer hover:opacity-40 duration-200 w-full h-full'/>
+                </div>
             )
         }
     }

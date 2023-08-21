@@ -5,6 +5,7 @@ import MainFrame from './components/MainFrame'
 
 function App(){
   const [page,setPage] = useState(0);
+
   return(
     <AppContainer>
         <Botao position='left' page={page} onPress={()=>{setPage(page-1)}}/>

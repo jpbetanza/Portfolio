@@ -1,5 +1,14 @@
+import { useEffect,useState } from "react";
 export default function Greeting(){
+    
+    const [init,setInit] = useState(false)
+    useEffect(()=>{
+        setTimeout(() => {
+            setInit((init) => true);
+          }, 1);
+    })
+
     return(
-        <h1 className='opacity-100 select-none font-medium text-3xl text-white default:opacity-0 duration-500'>Me chamo João Pedro!</h1>
+        <h1 className={`${init ? 'opacity-100':'opacity-5'} select-none font-medium text-6xl text-white duration-[2000ms]`}>Me chamo João Pedro!</h1>
     )
 }
