@@ -8,7 +8,7 @@ const MainFrame = ({page})=>{
     const pages = [<Greeting/>,<Introduction/>,<Projects/>,<Contact/>]
 
     return(
-        <div className="w-11/12 flex justify-center">{pages[page]}</div>
+        <div className="w-full flex justify-center">{pages[page]}</div>
     )
 }
 export default MainFrame
