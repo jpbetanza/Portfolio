@@ -10,11 +10,11 @@ const Projects = () => {
           }, 1);
     })
     return(
-        <div className={`${init ? 'opacity-100':'opacity-0'} duration-1000 flex flex-col h-full sm:h-screen sm:justify-center items-center pt-10`}>
+        <div className={`${init ? 'opacity-100':'opacity-0'} duration-1000 flex flex-col h-full sm:justify-center items-center pt-10`}>
             <h1 className="sm:text-6xl text-4xl text-white md:mb-14 mb-5 drop-shadow-2xl ">Meus Projetos</h1>
-            <div className="w-full gap-1 px-5 sm:p-5 grid sm:grid-rows-1 sm:grid-cols-2 md:grid-cols-3">
+            <div className="w-full gap-1 px-5 sm:p-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
                 {db.map((x) => (
-                    <ProjectCard titulo={x.nome} desc={x.desc} url={x.url} src={x.src} imgautor={x.imgautor} utils={x.utils} />
+                    <ProjectCard titulo={x.nome} desc={x.desc} vercel={x.vercel} url={x.url} src={x.src} imgautor={x.imgautor} utils={x.utils} />
                 ))}
             </div>
         </div>

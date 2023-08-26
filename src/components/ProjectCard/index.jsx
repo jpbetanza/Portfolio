@@ -1,8 +1,11 @@
-const ProjectCard = ({titulo, desc, url, src, imgautor, utils}) => {
+import SmallLink from "../SmallLink"
+import GithubLink from "../GithubLink"
+
+const ProjectCard = ({titulo, desc,vercel, url, src, imgautor, utils}) => {
     return(
-        <a href={url} target="_blank" className="group relative bg-black flex flex-col justify-between bg-opacity-50 rounded-lg duration-200 m-2 hover:m-0 hover:mb-2 shadow-2xl">
-            {imgautor!='' && <a href={imgautor} target="_blank" className="bg-slate-200 bg-opacity-10 absolute right-0 rounded-xl px-2 py-1 m-1 text-white text-sm hover:cursor-pointer hover:bg-opacity-20 duration-200">@peppe</a>}
-            
+        <a href={vercel} target="_blank" className="group relative bg-black flex flex-col justify-between bg-opacity-50 rounded-lg duration-200 m-2 hover:m-0 hover:mb-2 shadow-2xl">
+            {imgautor!='' && <SmallLink imgautor={imgautor}/>}
+            <GithubLink github={url} />
             <div className="text-left">
                 <img src={src} className="rounded-t-lg w-auto p-px"></img>
 
