@@ -1,11 +1,12 @@
 import SmallLink from "../SmallLink"
-import GithubLink from "../GithubLink"
+import LinkIcon from "../LinkIcon"
+import githubIcon from '../../assets/githubicon.png'
 
 const ProjectCard = ({titulo, desc,vercel, url, src, imgautor, utils}) => {
     return(
         <a href={vercel} target="_blank" className="group relative bg-black flex flex-col justify-between bg-opacity-50 rounded-lg duration-200 m-2 hover:m-0 hover:mb-2 shadow-2xl">
             {imgautor!='' && <SmallLink imgautor={imgautor}/>}
-            <GithubLink github={url} />
+            <LinkIcon icon={githubIcon} css="absolute right-0 bottom-0 w-7" url={url} />
             <div className="text-left">
                 <img src={src} className="rounded-t-lg w-auto p-px"></img>
 
