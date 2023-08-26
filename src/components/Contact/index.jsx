@@ -20,7 +20,7 @@ const Contact = ()=>{
             <div className="flex flex-col gap-5 sm:flex-row sm:gap-10">
                 <LinkIcon icon={githubIcon} url="https://github.com/jpbetanza" css={"w-20 md:w-32"}/>
                 <LinkIcon icon={linkedinIcon} url="https://br.linkedin.com/in/jo%C3%A3o-pedro-betanza-dal-caro-6b7625163" css={"w-20 md:w-32"}/>
-                <LinkIcon icon={emailIcon} url="mailto:jpbetanza@gmail.com?subject=Prazer em conhecê-lo" css={"w-20 md:w-32"}/>
+                <LinkIcon icon={emailIcon} url="mailto:jpbetanza99@gmail.com?subject=Prazer em conhecê-lo" css={"w-20 md:w-32"}/>
             </div>
         </div>
     )
