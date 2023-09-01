@@ -35,8 +35,8 @@ export const db = [
     {
         nome:'Mara',
         desc:'Mara é um teclado virtual de controle ocular para pessoas com esclerose lateral amiotrófica',
-        vercel: '',
-        url:'https://github.com/jpbetanza/Mara',
+        vercel: 'https://mara2.vercel.app',
+        url:'https://github.com/jpbetanza/Mara2',
         src: mara,
         imgautor: 'https://www.instagram.com/caro_peppe',
         utils: [bootstrap,html,js],
