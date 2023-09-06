@@ -39,7 +39,7 @@ export const db = [
         url:'https://github.com/jpbetanza/Mara2',
         src: mara,
         imgautor: 'https://www.instagram.com/caro_peppe',
-        utils: [bootstrap,html,js],
+        utils: [tailwind,react,html,js],
     },
     {
         nome:'Subtraia-me',
