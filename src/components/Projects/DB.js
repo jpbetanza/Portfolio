@@ -1,6 +1,7 @@
 import ameLogo from '../../assets/ameLogo.png'
 import mara from '../../assets/mara.png'
 import subtraiame from '../../assets/subtraiame.png'
+import tcc from '../../assets/tcc.png'
 
 import bootstrap from '../../assets/bootstrap.png'
 import django from '../../assets/django.png'
@@ -9,6 +10,7 @@ import js from '../../assets/js.png'
 import python from '../../assets/python.png'
 import react from '../../assets/react.png'
 import tailwind from '../../assets/tailwind.png'
+import matlab from '../../assets/matlab.png'
 
 // Isso da erro, sei lá o pq
 // import { ameLogo, mara, subtraiame, django, js, bootstrap, python, react, html, tailwind  } from "../../assets"
@@ -26,11 +28,11 @@ export const db = [
     {
         nome:'Programa AME',
         desc:'Website produzido em colaboração com o projeto de Doutorado de alunos do departamento de Saúde Coletiva, na UFRN',
-        vercel: '',
+        vercel: 'https://programa-ame.vercel.app/',
         url:'https://github.com/jpbetanza/Programa-AME',
         src: ameLogo,
         imgautor:'',
-        utils: [bootstrap,html,js,python,django],
+        utils: [django,python,bootstrap,html,js],
     },
     {
         nome:'Mara',
@@ -39,7 +41,7 @@ export const db = [
         url:'https://github.com/jpbetanza/Mara2',
         src: mara,
         imgautor: 'https://www.instagram.com/caro_peppe',
-        utils: [tailwind,react,html,js],
+        utils: [react,tailwind,html,js],
     },
     {
         nome:'Subtraia-me',
@@ -48,6 +50,15 @@ export const db = [
         url:'https://github.com/jpbetanza/Subtraia.me',
         src: subtraiame,
         imgautor:'',
-        utils: [tailwind,html,js],
+        utils: [react,tailwind,html,js],
     },
+    {
+        nome:'Segmentação de Pneumonia',
+        desc:'Meu trabalho de conclusão de curso, voltado para processamento digital de imagens. Segmentação da pneumonia causada por COVID-19 em imagens tomográficas',
+        vercel: 'https://github.com/jpbetanza/SEGMENTACAO-DA-PNEUMONIA-CAUSADA-POR-COVID-19-EM-IMAGENS-TOMOGRAFICAS/blob/main/Segmenta%C3%A7%C3%A3odaPneumonia_Caro_2022.pdf',
+        url: 'https://github.com/jpbetanza/SEGMENTACAO-DA-PNEUMONIA-CAUSADA-POR-COVID-19-EM-IMAGENS-TOMOGRAFICAS',
+        src: tcc,
+        imgautor:'',
+        utils: [matlab]
+    }
 ]
