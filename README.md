@@ -20,7 +20,7 @@ Bem-vindo ao meu portfólio de projetos! Aqui você encontrará alguns dos meus 
 
 - Descrição: Um simpático jogo matemático. Criado por diversão, seria você capaz de ganhar?
 - Tecnologias Utilizadas: React, Tailwind, HTML, JavasScript.
-- Link para o Projeto: Coloque um link para o projeto, se estiver disponível online.
+- Link para o Projeto:  [Subtraia-me](subtraia-me.vercel.app).
 
 ## Sobre Mim
 
