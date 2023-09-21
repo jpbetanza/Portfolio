@@ -9,7 +9,7 @@ export default function Greeting(){
     })
 
     return(
-        <div className="h-screen flex items-center">
+        <div className="h-full flex items-center">
             <h1 className={`${init ? 'opacity-100':'opacity-5'} select-none font-medium text-6xl text-white duration-[2000ms]`}>Me chamo João Pedro!</h1>
         </div>
     )
