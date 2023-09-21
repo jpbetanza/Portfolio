@@ -1,6 +1,6 @@
 # Meu Portfólio
 
-Bem-vindo ao meu portfólio de projetos! Aqui você encontrará alguns dos meus projetos mais interessantes relacionados ao desenvolvimento web e programação em geral. [Você pode acessá-lo por aqui](jpbetanza.vercel.app).
+Bem-vindo ao meu portfólio de projetos! Aqui você encontrará alguns dos meus projetos mais interessantes relacionados ao desenvolvimento web e programação em geral. [Você pode acessá-lo por aqui](www.jpbetanza.vercel.app).
 
 ## Projetos Destacados
 
@@ -8,19 +8,19 @@ Bem-vindo ao meu portfólio de projetos! Aqui você encontrará alguns dos meus 
 
 - Descrição: Website produzido em colaboração com o projeto de Doutorado de alunos do departamento de Saúde Coletiva, na UFRN.
 - Tecnologias Utilizadas: Django, Python, Bootstrap, HTML, JavaScript.
-- Link para o Projeto: [Programa AME](programa-ame.vercel.app).
+- Link para o Projeto: [Programa AME](www.programa-ame.vercel.app).
 
 ### Projeto 2: [Mara]
 
 - Descrição: Mara é um teclado virtual de controle ocular para pessoas com esclerose lateral amiotrófica.
 - Tecnologias Utilizadas: React, Tailwind, HTML, JavaScript, WebGazerJS.
-- Link para o Projeto: [Mara](mara2.vercel.app).
+- Link para o Projeto: [Mara](www.mara2.vercel.app).
 
 ### Projeto 3: [Subtraia-me]
 
 - Descrição: Um simpático jogo matemático. Criado por diversão, seria você capaz de ganhar?
 - Tecnologias Utilizadas: React, Tailwind, HTML, JavasScript.
-- Link para o Projeto:  [Subtraia-me](subtraia-me.vercel.app).
+- Link para o Projeto:  [Subtraia-me](www.subtraia-me.vercel.app).
 
 ## Sobre Mim
 
