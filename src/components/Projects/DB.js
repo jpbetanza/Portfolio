@@ -2,6 +2,7 @@ import ameLogo from '../../assets/ameLogo.png'
 import mara from '../../assets/mara.png'
 import subtraiame from '../../assets/subtraiame.png'
 import tcc from '../../assets/tcc.png'
+import ceac from '../../assets/ceac.png'
 
 import bootstrap from '../../assets/bootstrap.png'
 import django from '../../assets/django.png'
@@ -25,6 +26,15 @@ export const tools = [
 ]
 
 export const db = [
+    {
+        nome:'CEAC',
+        desc:'Um site institucional para o Centro Espírita Amigos de Chico, em Natal - RN',
+        vercel: 'https://ceac.vercel.app/',
+        url:'https://github.com/jpbetanza/CEAC',
+        src: ceac,
+        imgautor:'',
+        utils: [react,tailwind,html,js],
+    },
     {
         nome:'Programa AME',
         desc:'Website produzido em colaboração com o projeto de Doutorado de alunos do departamento de Saúde Coletiva, na UFRN',
