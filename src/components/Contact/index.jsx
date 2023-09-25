@@ -12,7 +12,7 @@ const Contact = ()=>{
           }, 1);
     })
     return(
-        <div className={`${init ? 'opacity-100':'opacity-0'} flex flex-col items-center justify-center gap-10 p-5 duration-1000`}>
+        <div className={`${init ? 'opacity-100':'opacity-0'} h-full flex flex-col items-center justify-center gap-10 p-5 duration-1000`}>
             <div className="flex flex-col items-center text-white text-center gap-5">
                 <h1 className="text-6xl">Trabalhe comigo</h1>
                 <p className="md:text-xl">Você pode conhecer mais sobre mim nos links abaixo</p>
