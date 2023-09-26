@@ -27,15 +27,6 @@ export const tools = [
 
 export const db = [
     {
-        nome:'CEAC',
-        desc:'Um site institucional para o Centro Espírita Amigos de Chico, em Natal - RN',
-        vercel: 'https://ceac.vercel.app/',
-        url:'https://github.com/jpbetanza/CEAC',
-        src: ceac,
-        imgautor:'',
-        utils: [react,tailwind,html,js],
-    },
-    {
         nome:'Programa AME',
         desc:'Website produzido em colaboração com o projeto de Doutorado de alunos do departamento de Saúde Coletiva, na UFRN',
         vercel: 'https://programa-ame.vercel.app/',
