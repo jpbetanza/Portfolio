@@ -2,7 +2,7 @@ import { useState } from 'react'
 import AppContainer from './components/AppContainer'
 import Botao from './components/Botao'
 import MainFrame from './components/MainFrame'
-import LangButton from './components/langButton';
+import LangButton from './components/LangButton';
 
 
 function App(){
