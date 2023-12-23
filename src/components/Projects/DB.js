@@ -1,8 +1,8 @@
 import ameLogo from '../../assets/ameLogo.png'
-import mara from '../../assets/mara.png'
+import maraIris from '../../assets/maraIris.png'
+import maraWink from '../../assets/maraWink.png'
 import subtraiame from '../../assets/subtraiame.png'
 import tcc from '../../assets/tcc.png'
-import ceac from '../../assets/ceac.png'
 
 import bootstrap from '../../assets/bootstrap.png'
 import django from '../../assets/django.png'
@@ -27,8 +27,10 @@ export const tools = [
 
 export const db = [
     {
-        nome:'Programa AME',
-        desc:'Website produzido em colaboração com o projeto de Doutorado de alunos do departamento de Saúde Coletiva, na UFRN',
+        nomePt:'Programa AME',
+        descPt:'Website produzido em colaboração com o projeto de Doutorado de alunos do departamento de Saúde Coletiva, na UFRN',
+        nomeEn:'Programa AME',
+        descEn:'A website designed to support a project by doctorate students from the Department of Collective Health at the Federal University of Rio Grande do Norte (UFRN)',
         vercel: 'https://programa-ame.vercel.app/',
         url:'https://github.com/jpbetanza/Programa-AME',
         src: ameLogo,
@@ -36,17 +38,32 @@ export const db = [
         utils: [django,python,bootstrap,html,js],
     },
     {
-        nome:'Mara',
-        desc:'Mara é um teclado virtual de controle ocular para pessoas com esclerose lateral amiotrófica',
+        nomePt:'Mara Iris',
+        descPt:'Mara Iris é um teclado virtual de controle por rastreio de íris para pessoas com esclerose lateral amiotrófica',
+        nomeEn:'Mara Iris',
+        descEn:'Mara is a virtual keyboard that helps individuals with amyotrophic lateral schlerosis communicate with eye movements',
         vercel: 'https://mara2.vercel.app',
         url:'https://github.com/jpbetanza/Mara2',
-        src: mara,
+        src: maraIris,
         imgautor: 'https://www.instagram.com/caro_peppe',
         utils: [react,tailwind,html,js],
     },
     {
-        nome:'Subtraia-me',
-        desc:'Um simpático jogo matemático. Criado por diversão, seria você capaz de ganhar?',
+        nomePt:'Mara Wink',
+        descPt:'Mara Wink é um teclado virtual de controle por detecção de piscadas de olho para pessoas com esclerose lateral amiotrófica',
+        nomeEn:'Mara Wink',
+        descEn:'Mara is a virtual keyboard that helps individuals with amyotrophic lateral schlerosis communicate with eye blinking',
+        vercel: 'https://mara3.vercel.app',
+        url:'https://github.com/jpbetanza/Mara3',
+        src: maraWink,
+        imgautor: 'https://www.instagram.com/caro_peppe',
+        utils: [react,tailwind,html,js],
+    },
+    {
+        nomePt:'Subtraia-me',
+        descPt:'Um simpático jogo matemático, criado por diversão. Seria você capaz de ganhar?',
+        nomeEn:'Subtraia-me',
+        descEn:'A friendly math game, made for fun. Are you able to win?',
         vercel: 'https://subtraia-me.vercel.app/',
         url:'https://github.com/jpbetanza/Subtraia.me',
         src: subtraiame,
@@ -54,8 +71,10 @@ export const db = [
         utils: [react,tailwind,html,js],
     },
     {
-        nome:'Segmentação de Pneumonia',
-        desc:'Meu trabalho de conclusão de curso, voltado para processamento digital de imagens. Segmentação da pneumonia causada por COVID-19 em imagens tomográficas',
+        nomePt:'Segmentação de Pneumonia',
+        descPt:'Meu trabalho de conclusão de curso, voltado para processamento digital de imagens. Segmentação da pneumonia causada por COVID-19 em imagens tomográficas',
+        nomeEn:'Pneumonia segmentation',
+        descEn:'My final undergraduate project focused on digital image processing. It involved the segmentation of COVID-19 pneumonia in tomographic images.',
         vercel: 'https://github.com/jpbetanza/SEGMENTACAO-DA-PNEUMONIA-CAUSADA-POR-COVID-19-EM-IMAGENS-TOMOGRAFICAS/blob/main/Segmenta%C3%A7%C3%A3odaPneumonia_Caro_2022.pdf',
         url: 'https://github.com/jpbetanza/SEGMENTACAO-DA-PNEUMONIA-CAUSADA-POR-COVID-19-EM-IMAGENS-TOMOGRAFICAS',
         src: tcc,
