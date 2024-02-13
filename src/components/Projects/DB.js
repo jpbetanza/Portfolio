@@ -3,6 +3,7 @@ import maraIris from '../../assets/maraIris.png'
 import maraWink from '../../assets/maraWink.png'
 import subtraiame from '../../assets/subtraiame.png'
 import tcc from '../../assets/tcc.png'
+import ytanalisys from '../../assets/AnaliseYt.png'
 
 import bootstrap from '../../assets/bootstrap.png'
 import django from '../../assets/django.png'
@@ -12,6 +13,7 @@ import python from '../../assets/python.png'
 import react from '../../assets/react.png'
 import tailwind from '../../assets/tailwind.png'
 import matlab from '../../assets/matlab.png'
+import pandas from '../../assets/pandas.png'
 
 // Isso da erro, sei lá o pq
 // import { ameLogo, mara, subtraiame, django, js, bootstrap, python, react, html, tailwind  } from "../../assets"
@@ -36,6 +38,8 @@ export const db = [
         src: ameLogo,
         imgautor:'',
         utils: [django,python,bootstrap,html,js],
+        catPt: ['FullStack','Web'],
+        catEn: ['FullStack','Web'],
     },
     {
         nomePt:'Mara Iris',
@@ -47,6 +51,8 @@ export const db = [
         src: maraIris,
         imgautor: 'https://www.instagram.com/caro_peppe',
         utils: [react,tailwind,html,js],
+        catPt:['FrontEnd','Web'],
+        catEn:['FrontEnd','Web'],
     },
     {
         nomePt:'Mara Wink',
@@ -58,6 +64,8 @@ export const db = [
         src: maraWink,
         imgautor: 'https://www.instagram.com/caro_peppe',
         utils: [react,tailwind,html,js],
+        catPt:['FrontEnd','Web'],
+        catEn:['FrontEnd','Web'],
     },
     {
         nomePt:'Subtraia-me',
@@ -69,6 +77,8 @@ export const db = [
         src: subtraiame,
         imgautor:'',
         utils: [react,tailwind,html,js],
+        catPt:['FrontEnd','Web'],
+        catEn:['FrontEnd','Web'],
     },
     {
         nomePt:'Segmentação de Pneumonia',
@@ -79,6 +89,21 @@ export const db = [
         url: 'https://github.com/jpbetanza/SEGMENTACAO-DA-PNEUMONIA-CAUSADA-POR-COVID-19-EM-IMAGENS-TOMOGRAFICAS',
         src: tcc,
         imgautor:'',
-        utils: [matlab]
+        utils: [matlab],
+        catPt:['Imagens','Pesquisa','Dados'],
+        catEn: ['Images','Research','Data'],
+    },
+    {
+        nomePt:'Análise de Categorias do Youtube',
+        descPt:'Um projeto de análise de dados para entender a melhor categoria para criar um canal no YouTube neste momento.',
+        nomeEn:'Youtube Category Analysis',
+        descEn:'A data analysis project to understand the best category to make a channel on youtube right now',
+        vercel: 'https://www.kaggle.com/code/jpbetanza/youtube-category-analysis',
+        url: 'https://www.kaggle.com/code/jpbetanza/youtube-category-analysis',
+        src: ytanalisys,
+        imgautor:'',
+        utils: [python, pandas],
+        catPt:['Pesquisa','Dados'],
+        catEn: ['Research','Data'],
     }
 ]

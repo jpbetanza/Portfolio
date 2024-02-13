@@ -5,7 +5,8 @@ const IntroductionText = () => {
     return(
         <div className="sm:p-5 flex flex-col gap-4">
             <h1 className="text-white text-3xl sm:text-5xl select-none"> {t('introductionTitle')} </h1>
-            <p className="text-white select-none"> {t('introductionText')} </p>
+            <p className="text-white select-none"> {t('introductionText1')} </p>
+            <p className="text-white select-none"> {t('introductionText2')} </p>
         </div>
     )
 }
