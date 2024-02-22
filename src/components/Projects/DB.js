@@ -4,6 +4,7 @@ import maraWink from '../../assets/maraWink.png'
 import subtraiame from '../../assets/subtraiame.png'
 import tcc from '../../assets/tcc.png'
 import ytanalisys from '../../assets/AnaliseYt.png'
+import financeDash from '../../assets/DashBoardFinanceiro.png'
 
 import bootstrap from '../../assets/bootstrap.png'
 import django from '../../assets/django.png'
@@ -14,6 +15,7 @@ import react from '../../assets/react.png'
 import tailwind from '../../assets/tailwind.png'
 import matlab from '../../assets/matlab.png'
 import pandas from '../../assets/pandas.png'
+import powerbi from '../../assets/powerbi.png'
 
 // Isso da erro, sei lá o pq
 // import { ameLogo, mara, subtraiame, django, js, bootstrap, python, react, html, tailwind  } from "../../assets"
@@ -29,17 +31,30 @@ export const tools = [
 
 export const db = [
     {
-        nomePt:'Programa AME',
-        descPt:'Website produzido em colaboração com o projeto de Doutorado de alunos do departamento de Saúde Coletiva, na UFRN',
-        nomeEn:'Programa AME',
-        descEn:'A website designed to support a project by doctorate students from the Department of Collective Health at the Federal University of Rio Grande do Norte (UFRN)',
-        vercel: 'https://programa-ame.vercel.app/',
-        url:'https://github.com/jpbetanza/Programa-AME',
-        src: ameLogo,
+        nomePt:'DashBoard Financeiro',
+        descPt:'Dashboard financeiro que coleta ajusta todos os dados dos meus extratos e os exibe em um DashBoard Power BI',
+        nomeEn:'Finance DashBoard',
+        descEn:'Financial dashboard that collects and adjusts all data from my statements and displays them on a Power BI dashboard.',
+        vercel: 'https://github.com/jpbetanza/FinanceDashBoard',
+        url: 'https://github.com/jpbetanza/FinanceDashBoard',
+        src: financeDash,
         imgautor:'',
-        utils: [django,python,bootstrap,html,js],
-        catPt: ['FullStack','Web'],
-        catEn: ['FullStack','Web'],
+        utils: [powerbi,python, pandas],
+        catPt:['Pesquisa','Dados','Análise','Financeiro'],
+        catEn: ['Research','Data','Analysis','Finances'],
+    },
+    {
+        nomePt:'Análise de Categorias do Youtube',
+        descPt:'Um projeto de análise de dados para entender a melhor categoria para criar um canal no YouTube neste momento.',
+        nomeEn:'Youtube Category Analysis',
+        descEn:'A data analysis project to understand the best category to make a channel on youtube right now',
+        vercel: 'https://www.kaggle.com/code/jpbetanza/youtube-category-analysis',
+        url: 'https://www.kaggle.com/code/jpbetanza/youtube-category-analysis',
+        src: ytanalisys,
+        imgautor:'',
+        utils: [python, pandas],
+        catPt:['Pesquisa','Dados','Análise'],
+        catEn: ['Research','Data'],
     },
     {
         nomePt:'Mara Iris',
@@ -68,19 +83,6 @@ export const db = [
         catEn:['FrontEnd','Web'],
     },
     {
-        nomePt:'Subtraia-me',
-        descPt:'Um simpático jogo matemático, criado por diversão. Seria você capaz de ganhar?',
-        nomeEn:'Subtraia-me',
-        descEn:'A friendly math game, made for fun. Are you able to win?',
-        vercel: 'https://subtraia-me.vercel.app/',
-        url:'https://github.com/jpbetanza/Subtraia.me',
-        src: subtraiame,
-        imgautor:'',
-        utils: [react,tailwind,html,js],
-        catPt:['FrontEnd','Web'],
-        catEn:['FrontEnd','Web'],
-    },
-    {
         nomePt:'Segmentação de Pneumonia',
         descPt:'Meu trabalho de conclusão de curso, voltado para processamento digital de imagens. Segmentação da pneumonia causada por COVID-19 em imagens tomográficas',
         nomeEn:'Pneumonia segmentation',
@@ -94,16 +96,29 @@ export const db = [
         catEn: ['Images','Research','Data'],
     },
     {
-        nomePt:'Análise de Categorias do Youtube',
-        descPt:'Um projeto de análise de dados para entender a melhor categoria para criar um canal no YouTube neste momento.',
-        nomeEn:'Youtube Category Analysis',
-        descEn:'A data analysis project to understand the best category to make a channel on youtube right now',
-        vercel: 'https://www.kaggle.com/code/jpbetanza/youtube-category-analysis',
-        url: 'https://www.kaggle.com/code/jpbetanza/youtube-category-analysis',
-        src: ytanalisys,
+        nomePt:'Programa AME',
+        descPt:'Website produzido em colaboração com o projeto de Doutorado de alunos do departamento de Saúde Coletiva, na UFRN',
+        nomeEn:'Programa AME',
+        descEn:'A website designed to support a project by doctorate students from the Department of Collective Health at the Federal University of Rio Grande do Norte (UFRN)',
+        vercel: 'https://programa-ame.vercel.app/',
+        url:'https://github.com/jpbetanza/Programa-AME',
+        src: ameLogo,
         imgautor:'',
-        utils: [python, pandas],
-        catPt:['Pesquisa','Dados'],
-        catEn: ['Research','Data'],
-    }
+        utils: [django,python,bootstrap,html,js],
+        catPt: ['FullStack','Web'],
+        catEn: ['FullStack','Web'],
+    },
+    {
+        nomePt:'Subtraia-me',
+        descPt:'Um simpático jogo matemático, criado por diversão. Seria você capaz de ganhar?',
+        nomeEn:'Subtraia-me',
+        descEn:'A friendly math game, made for fun. Are you able to win?',
+        vercel: 'https://subtraia-me.vercel.app/',
+        url:'https://github.com/jpbetanza/Subtraia.me',
+        src: subtraiame,
+        imgautor:'',
+        utils: [react,tailwind,html,js],
+        catPt:['FrontEnd','Web'],
+        catEn:['FrontEnd','Web'],
+    },
 ]
