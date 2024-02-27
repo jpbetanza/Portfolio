@@ -12,7 +12,7 @@ const Introduction = () => {
     })
     return(
         <div className={`${init ? 'opacity-100':'opacity-0'} duration-1000 h-full flex flex-col py-5 justify-center items-center md:gap-5`}>
-            <div className="flex flex-col items-center md:flex-row gap-5 md:mb-2 xl:w-3/4 p-3 duration-200 mb-5">
+            <div className="flex flex-col items-center md:flex-row gap-5 md:mb-2 md:w-4/5 mt-5 xl:w-3/4 p-3 duration-200 mb-5">
                 <Avatar/>
                 <IntroductionText/>
             </div>

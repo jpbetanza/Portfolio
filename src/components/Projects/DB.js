@@ -5,6 +5,7 @@ import subtraiame from '../../assets/subtraiame.png'
 import tcc from '../../assets/tcc.png'
 import ytanalisys from '../../assets/AnaliseYt.png'
 import financeDash from '../../assets/DashBoardFinanceiro.png'
+import atliq from '../../assets/atliq.png'
 
 import bootstrap from '../../assets/bootstrap.png'
 import django from '../../assets/django.png'
@@ -16,6 +17,8 @@ import tailwind from '../../assets/tailwind.png'
 import matlab from '../../assets/matlab.png'
 import pandas from '../../assets/pandas.png'
 import powerbi from '../../assets/powerbi.png'
+import sql from '../../assets/sql.png'
+import excel from '../../assets/excel.png'
 
 // Isso da erro, sei lá o pq
 // import { ameLogo, mara, subtraiame, django, js, bootstrap, python, react, html, tailwind  } from "../../assets"
@@ -27,21 +30,37 @@ export const tools = [
     {nome: 'HTML',img: html},
     {nome: 'Python',img: python},
     {nome: 'Django',img: django},
+    {nome: 'Power BI',img: powerbi},
+    {nome: 'Excel', img: excel},
+    {nome: 'Pandas', img: pandas},
 ]
 
 export const db = [
     {
-        nomePt:'DashBoard Financeiro',
-        descPt:'Dashboard financeiro que coleta ajusta todos os dados dos meus extratos e os exibe em um DashBoard Power BI',
-        nomeEn:'Finance DashBoard',
-        descEn:'Financial dashboard that collects and adjusts all data from my statements and displays them on a Power BI dashboard.',
+        nomePt:'Dashboard de Vendas da AtliQ',
+        descPt:'Um dashboard do Power BI feito com o intuito de analisar dados de vendas da AtliQ, famosa empresa de hardware eletrônico localizada na Índia.',
+        nomeEn:'AtliQ Sales Dashboard',
+        descEn:'A Power BI dashBoard made with intention of analyzing sales data from AtliQ, a famous eletronics hardware company located on India.',
+        vercel: 'https://github.com/jpbetanza/AtliQ-Sales-Dashboard',
+        url: 'https://github.com/jpbetanza/AtliQ-Sales-Dashboard',
+        src: atliq,
+        imgautor:'',
+        utils: [powerbi,sql],
+        catPt:['Pesquisa','Dados','Análise','Financeiro','Projeto Pessoal'],
+        catEn: ['Research','Data','Analysis','Finances','Personal Project'],
+    },
+    {
+        nomePt:'Dashboard Financeiro',
+        descPt:'Dashboard financeiro que coleta ajusta todos os dados dos meus extratos bancários e os exibe em um Dashboard Power BI',
+        nomeEn:'Finance Dashboard',
+        descEn:'Finance dashboard that collects and adjusts all data from my bank statements and displays them on a Power BI Dashboard.',
         vercel: 'https://github.com/jpbetanza/FinanceDashBoard',
         url: 'https://github.com/jpbetanza/FinanceDashBoard',
         src: financeDash,
         imgautor:'',
         utils: [powerbi,python, pandas],
-        catPt:['Pesquisa','Dados','Análise','Financeiro'],
-        catEn: ['Research','Data','Analysis','Finances'],
+        catPt:['Pesquisa','Dados','Análise','Financeiro','Projeto Pessoal'],
+        catEn: ['Research','Data','Analysis','Finances','Personal Project'],
     },
     {
         nomePt:'Análise de Categorias do Youtube',
@@ -53,8 +72,8 @@ export const db = [
         src: ytanalisys,
         imgautor:'',
         utils: [python, pandas],
-        catPt:['Pesquisa','Dados','Análise'],
-        catEn: ['Research','Data'],
+        catPt:['Pesquisa','Dados','Análise','Projeto Pessoal'],
+        catEn: ['Research','Data','Personal Project'],
     },
     {
         nomePt:'Mara Iris',
@@ -64,10 +83,10 @@ export const db = [
         vercel: 'https://mara2.vercel.app',
         url:'https://github.com/jpbetanza/Mara2',
         src: maraIris,
-        imgautor: 'https://www.instagram.com/caro_peppe',
+        imgautor: '',
         utils: [react,tailwind,html,js],
-        catPt:['FrontEnd','Web'],
-        catEn:['FrontEnd','Web'],
+        catPt:['FrontEnd','Web','Comissionado'],
+        catEn:['FrontEnd','Web','Comissioned'],
     },
     {
         nomePt:'Mara Wink',
@@ -77,10 +96,10 @@ export const db = [
         vercel: 'https://mara3.vercel.app',
         url:'https://github.com/jpbetanza/Mara3',
         src: maraWink,
-        imgautor: 'https://www.instagram.com/caro_peppe',
+        imgautor: '',
         utils: [react,tailwind,html,js],
-        catPt:['FrontEnd','Web'],
-        catEn:['FrontEnd','Web'],
+        catPt:['FrontEnd','Web','Projeto Pessoal'],
+        catEn:['FrontEnd','Web','Personal Project'],
     },
     {
         nomePt:'Segmentação de Pneumonia',
@@ -91,9 +110,9 @@ export const db = [
         url: 'https://github.com/jpbetanza/SEGMENTACAO-DA-PNEUMONIA-CAUSADA-POR-COVID-19-EM-IMAGENS-TOMOGRAFICAS',
         src: tcc,
         imgautor:'',
-        utils: [matlab],
-        catPt:['Imagens','Pesquisa','Dados'],
-        catEn: ['Images','Research','Data'],
+        utils: [matlab, excel],
+        catPt:['Imagens','Pesquisa','Dados','Projeto Pessoal'],
+        catEn: ['Images','Research','Data','Personal Project'],
     },
     {
         nomePt:'Programa AME',
@@ -105,8 +124,8 @@ export const db = [
         src: ameLogo,
         imgautor:'',
         utils: [django,python,bootstrap,html,js],
-        catPt: ['FullStack','Web'],
-        catEn: ['FullStack','Web'],
+        catPt: ['FullStack','Web','Comissionado'],
+        catEn: ['FullStack','Web','Comissioned'],
     },
     {
         nomePt:'Subtraia-me',
@@ -118,7 +137,7 @@ export const db = [
         src: subtraiame,
         imgautor:'',
         utils: [react,tailwind,html,js],
-        catPt:['FrontEnd','Web'],
-        catEn:['FrontEnd','Web'],
+        catPt:['FrontEnd','Web','Projeto Pessoal'],
+        catEn:['FrontEnd','Web','Personal Project'],
     },
 ]

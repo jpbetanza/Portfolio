@@ -10,10 +10,10 @@ const ProjectCard = ({titulo, desc,vercel, url, src, imgautor, utils,cat}) => {
             <div className="text-left">
                 <img src={src} className="rounded-t-lg w-auto p-px"></img>
                 <div className="text-white px-5 py-3 duration-200 group-hover:px-7">
-                    <div className="flex justify-center pt-1 pb-2 px-1 gap-2 bottom-0 relative">
+                    <div className="flex flex-wrap justify-center pt-1 pb-2 px-1 gap-2 bottom-0 relative">
                     {cat.map((x)=>(
-                            <div className="flex flex-row text-white">
-                                <p><b>{x}</b></p>
+                            <div className="flex flex-row text-white font-light">
+                                <p className="underline"><b>{x}</b></p>
                             </div>
                         ))}
                     </div>
@@ -24,7 +24,7 @@ const ProjectCard = ({titulo, desc,vercel, url, src, imgautor, utils,cat}) => {
             <div className="flex justify-center pt-1 pb-3 px-1 gap-2 bottom-0 relative">
                 {utils.map((x)=>(
                     <div>
-                        <img className="w-7" src={x}/>
+                        <img className="w-8" src={x}/>
                     </div>
                 ))}
             </div>
