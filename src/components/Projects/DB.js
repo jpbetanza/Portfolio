@@ -102,10 +102,10 @@ export const db = [
         catEn:['FrontEnd','Web','Personal Project'],
     },
     {
-        nomePt:'Segmentação de Pneumonia',
+        nomePt:'Segmentação de COVID-19',
         descPt:'Meu trabalho de conclusão de curso, voltado para processamento digital de imagens. Segmentação da pneumonia causada por COVID-19 em imagens tomográficas',
-        nomeEn:'Pneumonia segmentation',
-        descEn:'My final undergraduate project focused on digital image processing. It involved the segmentation of COVID-19 pneumonia in tomographic images.',
+        nomeEn:'COVID-19 Segmentation',
+        descEn:'My final undergraduate paper focused on digital image processing. It involved the segmentation of COVID-19 pneumonia in tomographic images.',
         vercel: 'https://github.com/jpbetanza/SEGMENTACAO-DA-PNEUMONIA-CAUSADA-POR-COVID-19-EM-IMAGENS-TOMOGRAFICAS/blob/main/Segmenta%C3%A7%C3%A3odaPneumonia_Caro_2022.pdf',
         url: 'https://github.com/jpbetanza/SEGMENTACAO-DA-PNEUMONIA-CAUSADA-POR-COVID-19-EM-IMAGENS-TOMOGRAFICAS',
         src: tcc,
