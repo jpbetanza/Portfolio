@@ -38,9 +38,9 @@ export const tools = [
 export const db = [
     {
         nomePt:'Dashboard de Vendas da AtliQ',
-        descPt:'Um dashboard do Power BI feito com o intuito de analisar dados de vendas da AtliQ, famosa empresa de hardware eletrônico localizada na Índia.',
+        descPt:'Um dashboard do Power BI feito com o intuito de analisar dados de vendas da AtliQ, uma empresa fictícia de hardware eletrônico localizada na Índia.',
         nomeEn:'AtliQ Sales Dashboard',
-        descEn:'A Power BI dashBoard made with intention of analyzing sales data from AtliQ, a famous eletronics hardware company located on India.',
+        descEn:'A Power BI dashboard created with the purpose of analyzing sales data from AtliQ, a fictional electronic hardware company located in India.',
         vercel: 'https://github.com/jpbetanza/AtliQ-Sales-Dashboard',
         url: 'https://github.com/jpbetanza/AtliQ-Sales-Dashboard',
         src: atliq,
