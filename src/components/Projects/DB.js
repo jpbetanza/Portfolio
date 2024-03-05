@@ -6,6 +6,7 @@ import tcc from '../../assets/tcc.png'
 import ytanalisys from '../../assets/AnaliseYt.png'
 import financeDash from '../../assets/DashBoardFinanceiro.png'
 import atliq from '../../assets/atliq.png'
+import atliqInsights from '../../assets/atliqsqlq.png'
 
 import bootstrap from '../../assets/bootstrap.png'
 import django from '../../assets/django.png'
@@ -33,9 +34,23 @@ export const tools = [
     {nome: 'Power BI',img: powerbi},
     {nome: 'Excel', img: excel},
     {nome: 'Pandas', img: pandas},
+    {nome: 'SQL', img: sql},
 ]
 
 export const db = [
+    {
+        nomePt:'AtliQ Hardwares Insights',
+        descPt:'Uma apresentação para mostrar aos stakeholders da AtliQ Hardwares dados de solicitações ad hoc para facilitar a tomada de decisões empresariais baseadas em dados.',
+        nomeEn:'AtliQ Hardwares Insights',
+        descEn:'A presentation to show AtliQ Hardwares stakeholders data from ad hoc requests to facilitate data driven business decision making',
+        vercel: 'https://github.com/jpbetanza/AtliQHardwares-adhoc-SQL-Requests',
+        url: 'https://github.com/jpbetanza/AtliQHardwares-adhoc-SQL-Requests',
+        src: atliqInsights,
+        imgautor:'',
+        utils: [sql],
+        catPt:['Dados','Análise','Financeiro','Projeto Pessoal'],
+        catEn: ['Data','Analysis','Finances','Personal Project'],
+    },
     {
         nomePt:'Dashboard de Vendas da AtliQ',
         descPt:'Um dashboard do Power BI feito com o intuito de analisar dados de vendas da AtliQ, uma empresa fictícia de hardware eletrônico localizada na Índia.',
