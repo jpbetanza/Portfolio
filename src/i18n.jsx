@@ -32,8 +32,8 @@ i18n.use(initReactI18next).init({
         },
     },
   },
-  lng: 'pt', // default language
-  fallbackLng: 'en', // fallback language
+  lng: 'en', // default language
+  fallbackLng: 'pt', // fallback language
   interpolation: {
     escapeValue: false,
   },
