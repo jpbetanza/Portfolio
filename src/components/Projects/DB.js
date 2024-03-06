@@ -25,16 +25,21 @@ import excel from '../../assets/excel.png'
 // import { ameLogo, mara, subtraiame, django, js, bootstrap, python, react, html, tailwind  } from "../../assets"
 
 export const tools = [
-    {nome: 'React',img: react},
-    {nome: 'Tailwind',img: tailwind},
-    {nome: 'Javascript',img: js},
-    {nome: 'HTML',img: html},
+    {nome: 'PowerBI',img: powerbi},
     {nome: 'Python',img: python},
-    {nome: 'Django',img: django},
-    {nome: 'Power BI',img: powerbi},
-    {nome: 'Excel', img: excel},
     {nome: 'Pandas', img: pandas},
     {nome: 'SQL', img: sql},
+    {nome: 'React',img: react},
+    {nome: 'Tailwind',img: tailwind},
+    {nome: 'Excel', img: excel},
+    {nome: 'Django',img: django},
+]
+
+export const navBarText=[
+    {name:'Hello', nome:'Olá', page:0},
+    {name:'Who am I', nome:'Quem sou', page:1},
+    {name:'Projects', nome:'Projetos', page:2},
+    {name:'Contact', nome:'Contato', page:3},
 ]
 
 export const db = [

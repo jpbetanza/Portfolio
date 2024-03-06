@@ -2,6 +2,7 @@ import LinkIcon from "../LinkIcon"
 import linkedinIcon from '../../assets/linkedinicon.png'
 import githubIcon from '../../assets/githubicon.png'
 import emailIcon from  '../../assets/emailicon.png'
+import linkTree from '../../assets/linktree.png'
 import { useTranslation } from "react-i18next"
 import { useState, useEffect } from "react"
 
@@ -24,6 +25,7 @@ const Contact = ()=>{
                 <LinkIcon icon={githubIcon} url="https://github.com/jpbetanza" css={"w-20 md:w-32"}/>
                 <LinkIcon icon={linkedinIcon} url="https://br.linkedin.com/in/jo%C3%A3o-pedro-betanza-dal-caro-6b7625163" css={"w-20 md:w-32"}/>
                 <LinkIcon icon={emailIcon} url="mailto:jpbetanza99@gmail.com?subject=Prazer em conhecê-lo" css={"w-20 md:w-32"}/>
+                <LinkIcon icon={linkTree} url="https://linktr.ee/jpbetanza" css={"w-20 md:w-32"}/>
             </div>
         </div>
     )

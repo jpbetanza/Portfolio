@@ -8,7 +8,7 @@ const MainFrame = ({page})=>{
     const pages = [<Greeting/>,<Introduction/>,<Projects/>,<Contact/>]
 
     return(
-        <div className="w-full min-h-screen flex justify-center">{pages[page]}</div>
+        <div className="select-none w-full min-h-screen flex justify-center">{pages[page]}</div>
     )
 }
 export default MainFrame
