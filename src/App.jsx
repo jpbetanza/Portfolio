@@ -11,12 +11,10 @@ function App(){
 
   return(
     <AppContainer>
-
         <Botao position='left' page={page} onPress={()=>{setPage(page-1)}}/>
         <LangButton/>
         <TabNav page={page} pageChange={setPage}/>
         <MainFrame page={page}/>
-        
         <Botao position='right' page={page} onPress={()=>{setPage(page+1)}}/>
     </AppContainer>
   )
