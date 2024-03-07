@@ -24,7 +24,7 @@ const LangButton = () => {
                 </svg>
 
                 <b className="mr-1 hidden sm:block">{t('langButton')}</b>
-                <b className="mr-1 block sm:hidden">Lang</b>
+                <b className="mr-1 block sm:hidden"></b>
             
             </button>
         </div>
