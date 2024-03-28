@@ -7,6 +7,7 @@ import ytanalisys from '../../assets/AnaliseYt.png'
 import financeDash from '../../assets/DashBoardFinanceiro.png'
 import atliq from '../../assets/atliq.png'
 import atliqInsights from '../../assets/atliqsqlq.png'
+import bangalore from '../../assets/bangalore.png'
 
 import bootstrap from '../../assets/bootstrap.png'
 import django from '../../assets/django.png'
@@ -20,6 +21,7 @@ import pandas from '../../assets/pandas.png'
 import powerbi from '../../assets/powerbi.png'
 import sql from '../../assets/sql.png'
 import excel from '../../assets/excel.png'
+import bubble from '../../assets/bubble.png'
 
 // Isso da erro, sei lá o pq
 // import { ameLogo, mara, subtraiame, django, js, bootstrap, python, react, html, tailwind  } from "../../assets"
@@ -43,6 +45,19 @@ export const navBarText=[
 ]
 
 export const db = [
+    {
+        nomePt:'LivinBangalore',
+        descPt:'Simule o preço de sua casa dos sonhos em Bangalore! Modelo de predição em python hosteado em flask no PythonAnywhere e aplicação feita Bubble',
+        nomeEn:'LivinBangalore',
+        descEn:'Simulate the price of your dream home in Bangalore! Prediction model in Python hosted on Flask on PythonAnywhere and application built with Bubble.',
+        vercel: 'https://livinbangalore.bubbleapps.io/version-test',
+        url: 'https://livinbangalore.bubbleapps.io/version-test',
+        src: bangalore,
+        imgautor:'',
+        utils: [bubble, python, pandas],
+        catPt:['Dados','Análise','Aprendizado de Máquina','Fullstack','Projeto Pessoal'],
+        catEn: ['Data','Analysis','Machine Learning','Fullstack','Personal Project'],
+    },
     {
         nomePt:'AtliQ Hardwares Insights',
         descPt:'Uma apresentação para mostrar aos stakeholders da AtliQ Hardwares dados de solicitações ad hoc para facilitar a tomada de decisões empresariais baseadas em dados.',
