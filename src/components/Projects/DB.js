@@ -51,7 +51,7 @@ export const db = [
         nomeEn:'LivinBangalore',
         descEn:'Simulate the price of your dream home in Bangalore! Prediction model in Python hosted on Flask on PythonAnywhere and application built with Bubble.',
         vercel: 'https://livinbangalore.bubbleapps.io/version-test',
-        url: 'https://livinbangalore.bubbleapps.io/version-test',
+        url: 'https://github.com/jpbetanza/LivinBangalore',
         src: bangalore,
         imgautor:'',
         utils: [bubble, python, pandas],
