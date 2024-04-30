@@ -38,10 +38,9 @@ export const tools = [
 ]
 
 export const navBarText=[
-    {name:'Hello', nome:'Olá', page:0},
-    {name:'Who am I', nome:'Quem sou', page:1},
-    {name:'Projects', nome:'Projetos', page:2},
-    {name:'Contact', nome:'Contato', page:3},
+    {name:'Projects', nome:'Projetos', page:0},
+    {name:'João Pedro', nome:'João Pedro', page:1},
+    {name:'Contact', nome:'Contato', page:2},
 ]
 
 export const db = [

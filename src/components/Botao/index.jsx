@@ -16,7 +16,7 @@ const Botao=({position,onPress,page})=>{
         }
     }
     else if(position=='right'){
-        if(page==3){
+        if(page==2){
             return(<div className='w-8 md:w-16 h-screen fixed right-0 top-0 bottom-0'></div>)
         }
         else{

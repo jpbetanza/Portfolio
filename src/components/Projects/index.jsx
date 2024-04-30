@@ -14,7 +14,7 @@ const Projects = () => {
           }, 1);
     })
     return(
-        <div className={`${init ? 'opacity-100':'opacity-0'} duration-1000 flex flex-col h-full sm:justify-center items-center pt-14`}>
+        <div className={`${init ? 'opacity-100':'opacity-0'} duration-1000 flex flex-col h-full sm:justify-center items-center pt-12 md:pt-20`}>
             <h1 className="sm:text-6xl text-4xl text-white mt-5 md:mb-10 mb-5 drop-shadow-2xl "> {t('projectsTitle')} </h1>
             <div className="w-full gap-1 px-2 sm:p-5 xl:px-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
                 {i18n.language=='pt'? 

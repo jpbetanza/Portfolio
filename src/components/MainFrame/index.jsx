@@ -5,7 +5,7 @@ import Contact from "../Contact"
 
 
 const MainFrame = ({page})=>{
-    const pages = [<Greeting/>,<Introduction/>,<Projects/>,<Contact/>]
+    const pages = [<Projects/>,<Introduction/>,<Contact/>]
 
     return(
         <div className="select-none w-full min-h-screen flex justify-center">{pages[page]}</div>
