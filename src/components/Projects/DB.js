@@ -43,6 +43,12 @@ export const navBarText=[
     {name:'Contact', nome:'Contato', page:2},
 ]
 
+export const projectFilterText=[
+    {category:'All', categoria:'Todos', cat:0},
+    {category:'Data Science', categoria:'Ciência de Dados', cat:1},
+    {category:'Web Dev', categoria:'Web Dev', cat:2},
+]
+
 export const db = [
     {
         nomePt:'LivinBangalore',
@@ -56,6 +62,7 @@ export const db = [
         utils: [bubble, python, pandas],
         catPt:['Dados','Análise','Aprendizado de Máquina','Fullstack','Projeto Pessoal'],
         catEn: ['Data','Analysis','Machine Learning','Fullstack','Personal Project'],
+        category: [0,1,2],
     },
     {
         nomePt:'AtliQ Hardwares Insights',
@@ -69,6 +76,7 @@ export const db = [
         utils: [sql],
         catPt:['Dados','Análise','Financeiro','Projeto Pessoal'],
         catEn: ['Data','Analysis','Finances','Personal Project'],
+        category: [0,1],
     },
     {
         nomePt:'Dashboard de Vendas da AtliQ',
@@ -82,6 +90,7 @@ export const db = [
         utils: [powerbi,sql],
         catPt:['Pesquisa','Dados','Análise','Financeiro','Projeto Pessoal'],
         catEn: ['Research','Data','Analysis','Finances','Personal Project'],
+        category: [0,1],
     },
     {
         nomePt:'Dashboard Financeiro',
@@ -95,6 +104,7 @@ export const db = [
         utils: [powerbi,python, pandas],
         catPt:['Pesquisa','Dados','Análise','Financeiro','Projeto Pessoal'],
         catEn: ['Research','Data','Analysis','Finances','Personal Project'],
+        category: [0,1],
     },
     {
         nomePt:'Análise de Categorias do Youtube',
@@ -108,6 +118,7 @@ export const db = [
         utils: [python, pandas],
         catPt:['Pesquisa','Dados','Análise','Projeto Pessoal'],
         catEn: ['Research','Data','Personal Project'],
+        category: [0,1],
     },
     {
         nomePt:'Mara Iris',
@@ -121,6 +132,7 @@ export const db = [
         utils: [react,tailwind,html,js],
         catPt:['FrontEnd','Web','Comissionado'],
         catEn:['FrontEnd','Web','Comissioned'],
+        category: [0,2],
     },
     {
         nomePt:'Mara Wink',
@@ -134,6 +146,7 @@ export const db = [
         utils: [react,tailwind,html,js],
         catPt:['FrontEnd','Web','Projeto Pessoal'],
         catEn:['FrontEnd','Web','Personal Project'],
+        category: [0,2],
     },
     {
         nomePt:'Segmentação de COVID-19',
@@ -147,6 +160,7 @@ export const db = [
         utils: [matlab, excel],
         catPt:['Imagens','Pesquisa','Dados','Projeto Pessoal'],
         catEn: ['Images','Research','Data','Personal Project'],
+        category: [0,1],
     },
     {
         nomePt:'Programa AME',
@@ -160,6 +174,7 @@ export const db = [
         utils: [django,python,bootstrap,html,js],
         catPt: ['FullStack','Web','Comissionado'],
         catEn: ['FullStack','Web','Comissioned'],
+        category: [0,2],
     },
     {
         nomePt:'Subtraia-me',
@@ -173,5 +188,6 @@ export const db = [
         utils: [react,tailwind,html,js],
         catPt:['FrontEnd','Web','Projeto Pessoal'],
         catEn:['FrontEnd','Web','Personal Project'],
+        category: [0,2],
     },
 ]
