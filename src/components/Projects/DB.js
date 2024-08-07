@@ -8,6 +8,7 @@ import financeDash from '../../assets/DashBoardFinanceiro.png'
 import atliq from '../../assets/atliq.png'
 import atliqInsights from '../../assets/atliqsqlq.png'
 import bangalore from '../../assets/bangalore.png'
+import oceanhotel from '../../assets/oceanhotel.png'
 
 import bootstrap from '../../assets/bootstrap.png'
 import django from '../../assets/django.png'
@@ -50,6 +51,20 @@ export const projectFilterText=[
 ]
 
 export const db = [
+    {
+        nomePt:'OceanHotel',
+        descPt:'Dashboard contendo insights de negócio para um hotel de luxo à beira-mar em São Miguel do Gostoso, Natal - RN',
+        nomeEn:'OceanHotel',
+        descEn:'Dashboard containing business insights for a luxury beachfront hotel in São Miguel do Gostoso in Natal - RN',
+        vercel: 'https://github.com/jpbetanza/OceanHotel',
+        url: 'https://github.com/jpbetanza/OceanHotel',
+        src: oceanhotel,
+        imgautor:'',
+        utils: [powerbi, excel],
+        catPt:['Dados','Análise','Projeto Pessoal'],
+        catEn: ['Data','Analysis','Personal Project'],
+        category: [0,1],
+    },
     {
         nomePt:'LivinBangalore',
         descPt:'Simule o preço de sua casa dos sonhos em Bangalore! Modelo de predição em python hosteado em flask no PythonAnywhere e aplicação feita Bubble',
