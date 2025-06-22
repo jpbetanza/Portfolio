@@ -32,4 +32,3 @@ Eu sou um engenheiro biomédico com paixão por programação e desenvolvimento 
 - **LinkedIn:** [João Pedro Betanza](https://www.linkedin.com/in/jo%C3%A3o-pedro-betanza-dal-caro-6b7625163/).
 
 Fique à vontade para explorar os projetos listados aqui e entrar em contato comigo se tiver alguma pergunta ou oportunidade de colaboração. Obrigado por visitar o meu portfólio!
-  
